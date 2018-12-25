@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Frontend Coding Challenge</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class="container col-8">
+            <div class="py-5 text-center">
+              <h1 class="display-4">Frontend Coding Challenge Mallem houda</h1>
+          </div>
+               
+            <div class="row">
+                <div class="col-1">  <label >Start date</label> </div>
+                <div class="col-3">  <input type='date'  id='startDate' class="form-control" ></div>
+                <div class="col-1"><label>End date</label> </div>
+                  <div class="col-3"> <input type='date' id='endDate' class="form-control" ></div>
+                  <div class="col-2">   <button type="button" class="btn btn-primary" id='SearcheByDate'>Searche By date </button> </div>
+                  <div class="col-1">  <input type='color'  class="form-control" id='skinbody' data-toggle="tooltip" data-placement="top" title="Change body color"></div> 
+                  <div class="col-1">  <input type='color'  class="form-control" id='skinpalette' data-toggle="tooltip" data-placement="top" title="Change palette color" ></div> 
+            </div>
+            <div>
+              <label>Keep in mind that the search index has a 7-day limit. In other words, no tweets will be found for a date older than one week. (according twitter)	 </label>
+            </div>
+        <hr>
+            <div class="row columns col-12 py-10" id='columns'>
+
+              <div class="col-sm column" id='column1'>
+
+
+              </div>
+              <div class="col-sm column" id='column2'>
+         
+             
+
+              </div>
+              <div class="col-sm column" id='column3'>
+          
+        
+
+              </div>
+            </div>
+          </div>
+          <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+          <script src="node_modules/requirejs/require.js"></script>
+          <script>
+
+
+            requirejs(['./common'], function (common) {
+                requirejs(['../../../../main']);
+            });
+
+              </script>
+    </body>
+</html>
+
