@@ -1,7 +1,7 @@
 {
-  "consumerKey": "ffzPh1Eu9oehXb60UXGLp2xDA",
-  "consumerSecret": "Zxm1QZ6kbjAaGSAUKjTjSFaXj6hWqIiNsOEokwnngOCr14x0tv",
-  "accessToken": "2434511959-EJmXlsUGTEwIeMwkkHBQiIr8OuA7284IlDpMOie",
-  "accessTokenSecret": "yuLsX6R4u8LfQ241prk0HhUZuXdc1IGYHnuvJGPUsSjzn",
+  "consumerKey": "your CKEY",
+  "consumerSecret": "YOUR CSECRET",
+  "accessToken": "YOUR ATOKEN",
+  "accessTokenSecret": "YOUR TOKEN",
   "port": "7890"
 }
