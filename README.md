@@ -5,6 +5,8 @@ nmp#  Frontend Code Challenge
 Install the project dependencies:
 
 `npm install`
+ 
+ put your twitter api access here config.json 
 
 ## Running
 
