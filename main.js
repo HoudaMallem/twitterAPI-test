@@ -3,7 +3,7 @@ define( function (require ) {
         var $ = require('jquery'),
             columnCreate = require('./columnCreate'),
             observer = require('./observer');
-            sortable = require('sortable');
+           sortable = require('sortable');
             draggable = require('draggable');
             datepicker = require('datepicker');
             

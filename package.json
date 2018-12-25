@@ -1,5 +1,5 @@
 {
-  "name": "twitterApi-test",
+  "name": "twitterAPI-test",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "http-server": "^0.9.0",
