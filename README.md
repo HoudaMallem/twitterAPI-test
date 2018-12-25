@@ -13,4 +13,4 @@ Start the static and proxy servers:
 
 `npm start`
 
-go to challenge/index.html 
+go to index.html 
