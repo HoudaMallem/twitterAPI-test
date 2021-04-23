@@ -16,8 +16,8 @@ define( function (require ) {
         this.columns = [];
     };
 /**
- * here we build all columns by create instance of each column with his setting 
- * and after push them in colums collection
+ * here we build all columns by create instance of each column with its settings
+ * and after pushing them on colums's collection
  */
  builder.prototype.buildColumns = function(){
     var colCreate1 = new columnCreate();
