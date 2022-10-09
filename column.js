@@ -1,15 +1,14 @@
 define(['jquery'],function ($){
     /**
      * this function represent column when we set the tweets , got  parameters
-     * data : array of tweets  retrieve from twitter API
-     * composites :  array of instance of Tweet object that will be showen on the column 
+     * data : array of tweets retrieved 
+     * composites :  array of Tweet's instance
      * count : nombre of tweet shown in column 
-     * id : it the id of div element container of column
+     * id : id of div element container of column
      * name : name of account twitter 
      * url : twitter API url of request ajax
      * parms : parms of url 
      * dataType :  type of data retrieved 
-     * data : data retveived in response 
      * creator :  instance of columnCreate object charged to create instance of column object
      */
     var Column = function(){
